@@ -2,5 +2,9 @@
 <PackageDescriptor xmlns="http://selectica.com/internalmodel/PackageDescriptor">
     <name>${project.name}</name>
     <type>Custom</type>
-    <version>1.0</version>
+    <version>${project.version}</version>
+    <date>${builddatetime}</date>
+    <build>${env.BUILD_NUMBER}</build>
+    <branch>${env.GIT_BRANCH}</branch>
+    <commit>${env.GIT_COMMIT}</commit>
 </PackageDescriptor>

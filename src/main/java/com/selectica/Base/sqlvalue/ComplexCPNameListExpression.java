@@ -1,8 +1,8 @@
 package com.selectica.Base.sqlvalue;
 
-import com.selectica.PhilipRCFTEST.stubs.DCPDetails;
-import com.selectica.PhilipRCFTEST.stubs.DCustDetails;
-import com.selectica.PhilipRCFTEST.stubs.DVenDetails;
+import com.selectica.rcfdfs.stubs.DCPDetails;
+import com.selectica.rcfdfs.stubs.DCustDetails;
+import com.selectica.rcfdfs.stubs.DVenDetails;
 import com.selectica.error.BaseException;
 import com.selectica.expression.FQNodeEvaluator;
 import com.selectica.fq.FQNodeInstance;

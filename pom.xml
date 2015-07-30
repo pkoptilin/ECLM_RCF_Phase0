@@ -6,18 +6,18 @@
         <version>0.18.b1</version>
     </parent>
 
-    <groupId>com.selectica.rcf.philiprcftest</groupId>
-    <artifactId>philiprcftest</artifactId>
+    <groupId>com.selectica.rcf.rcfdfs</groupId>
+    <artifactId>rcfdfs</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>PhilipRCFTEST</name>
+    <name>rcfdfs</name>
     <properties>
         <eclm.version>${eclm-core.version}</eclm.version>
         <serviceUrl>http://rcfproj.aws.selectica.net:8080</serviceUrl>
         <workbook>workbook.xlsx</workbook>
         <workbookId>1YGDsZlDoZwUWXr3j7ceHZnF-tc2cXSzAgT-NoAYTp28</workbookId>
-        <workbookName>PhilipRCFTEST-rcf</workbookName>
-        <repositoryUrl>https://github.com/pcyriac/ECLM_RCF_Phase0.git</repositoryUrl>
+        <workbookName>DFS-ECLM-RCF</workbookName>
+        <repositoryUrl>https://github.com/pkoptilin/ECLM_RCF_Phase0.git</repositoryUrl>
         <googleSync>false</googleSync>
         <upload>false</upload>
         <release>false</release>
@@ -25,7 +25,7 @@
         <rcf.password/>
         <github.username/>
         <github.password/>
-        <package.resolve.definitions>false</package.resolve.definitions>
+        <package.resolve.definitions>true</package.resolve.definitions>
     </properties>
 
     <dependencies>
@@ -112,7 +112,7 @@
             <plugin>
                 <groupId>com.selectica.rcf</groupId>
                 <artifactId>rcf-maven-plugin</artifactId>
-                <version>1.0.0-SNAPSHOT</version>
+                <version>${project.parent.version}</version>
                 <configuration>
                     <workbook>${workbook}</workbook>
                     <workbookId>${workbookId}</workbookId>
