@@ -3,7 +3,7 @@
     <parent>
         <artifactId>rcf-parent</artifactId>
         <groupId>com.selectica.rcf</groupId>
-        <version>0.2.5</version>
+        <version>0.18.b1</version>
     </parent>
 
     <groupId>com.selectica.rcf.philiprcftest</groupId>
